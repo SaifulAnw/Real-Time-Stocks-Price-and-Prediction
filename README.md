@@ -1,10 +1,13 @@
 # Real-time Data Streaming with Kafka, PostgreSQL, and Stock Price Prediction
 
+## Project Overview
+The goal of this project is to fetch stock price data, process it in real-time, and use machine learning to make predictions. The architecture is designed to handle both batch and streaming data, leveraging the strengths of CSV files for batch processing and PostgreSQL for real-time streaming.
+
 The main components of the project include:
 ## Components:
 #### 1. Data Collection
 * API Integration: Stock data is collected from Yahoo Finance API for companies like Tesla, IBM, and Apple.
-* This collects the following information for each stock:
+* This collects data historical prices for the past year for multiple companies, and the following information for each stock:
   * Open price
   * High price
   * Low price
