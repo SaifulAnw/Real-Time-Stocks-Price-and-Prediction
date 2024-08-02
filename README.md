@@ -23,3 +23,15 @@ The main components of the project include:
 ### Architecture
 
 ![Architecture](https://github.com/SaifulAnw/Real-Time-Stocks-Price-and-Prediction/blob/main/Arcithecture's%20Stock%20Market%20Project.jpg)
+
+### How to Run
+
+#### Setup Kafka
+* Start Kafka and create a topic named what you want, check this [command](https://github.com/SaifulAnw/Real-Time-Stocks-Price-and-Prediction/blob/main/command-kafka.txt)
+#### Run the Producer
+* Use the getDataMarket.py script to collect data from Yahoo Finance API and store it in a CSV file.
+* Run the Kafka Producer to send data from the CSV file to the Kafka topic.
+#### Run the Consumer
+* Run the Kafka Consumer to consume the data from the Kafka topic and store it in PostgreSQL.
+#### Run Machine Learning Predictions
+* Use the historical data stored in PostgreSQL to make predictions on future stock prices.
