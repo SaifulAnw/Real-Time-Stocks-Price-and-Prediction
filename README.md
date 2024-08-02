@@ -23,4 +23,4 @@ Prediction Module: Utilizes historical stock data stored in PostgreSQL to predic
 
 ### Architecture
 
-![Architecture](https://github.com/SaifulAnw/Real-Time-Stocks-Price-and-Prediction/edit/main/Arcithecture's Stock Market Project.jpg)
+![Architecture](https://github.com/SaifulAnw/Real-Time-Stocks-Price-and-Prediction/blob/main/Arcithecture's%20Stock%20Market%20Project.jpg)
