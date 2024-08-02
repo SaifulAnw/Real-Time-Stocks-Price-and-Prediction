@@ -34,4 +34,4 @@ The main components of the project include:
 #### Run the Consumer
 * Run the Kafka Consumer to consume the data from the Kafka topic and store it in PostgreSQL.
 #### Run Machine Learning Predictions
-* Use the historical data stored in PostgreSQL to make predictions on future stock prices.
+* Use historical data stored in PostgreSQL or use CSV data to make future stock price predictions.
