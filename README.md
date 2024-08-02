@@ -4,6 +4,14 @@ The main components of the project include:
 ## Components:
 #### 1. Data Collection
 * API Integration: Stock data is collected from Yahoo Finance API for companies like Tesla, IBM, and Apple.
+* This collects the following information for each stock:
+  * Open price
+  * High price
+  * Low price
+  * Close price
+  * Adjusted close price
+  * Volume
+  * Company name 
 * Data Storage: The data is initially stored in CSV format for batch processing.
 
 #### 2.Kafka Integration
