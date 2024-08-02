@@ -1,7 +1,7 @@
 # Real-time Data Streaming with Kafka, PostgreSQL, and Stock Price Prediction
 
 The main components of the project include:
-### Components
+### Components:
 #### 1. Data Collection
 * API Integration: Stock data is collected from Yahoo Finance API for companies like Tesla, IBM, and Apple.
 * Data Storage: The data is initially stored in CSV format for batch processing.
@@ -24,7 +24,7 @@ The main components of the project include:
 
 ![Architecture](https://github.com/SaifulAnw/Real-Time-Stocks-Price-and-Prediction/blob/main/Arcithecture's%20Stock%20Market%20Project.jpg)
 
-### How to Run
+### How to Run:
 
 #### Setup Kafka
 * Start Kafka and create a topic named what you want, check this [command](https://github.com/SaifulAnw/Real-Time-Stocks-Price-and-Prediction/blob/main/command-kafka.txt)
@@ -37,7 +37,7 @@ The main components of the project include:
 * Use historical data stored in PostgreSQL or use CSV data to make future stock price predictions.
 
 
-### Dependencies
+### Dependencies:
 #### a. Kafka
 #### b. PostgreSQL (Docker)
 #### c. Yahoo Finance API
