@@ -37,6 +37,7 @@ The main components of the project include:
 * Use historical data stored in PostgreSQL or use CSV data to make future stock price predictions.
 
 
+
 ### Dependencies:
 #### a. Kafka
 #### b. PostgreSQL (Docker)
