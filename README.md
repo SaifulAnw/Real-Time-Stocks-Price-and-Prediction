@@ -40,6 +40,14 @@ The main components of the project include:
 ### Dependencies:
 #### a. Kafka
 #### b. PostgreSQL (Docker)
+```bash
+docker run --name your_container_name \
+  -e POSTGRES_USER=your_user \
+  -e POSTGRES_PASSWORD=your_password \
+  -e POSTGRES_DB=your_database \
+  -p 5435:5432 \
+  -d postgres:16
+```
 #### c. Yahoo Finance API
 #### d. Python Libraries:
 * pandas
@@ -51,3 +59,13 @@ The main components of the project include:
 * scikit-learn
 * yfinance
 * json
+
+### Let's try it
+Clone the repository
+```bash
+git clone https://github.com/SaifulAnw/Real-Time-Stocks-Price-and-Prediction.git
+```
+Navigate to the project directory
+```bash
+cd Real-Time-Stocks-Price-and-Prediction
+```
