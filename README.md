@@ -2,22 +2,22 @@
 
 The main components of the project include:
 ### Components
-### 1. Data Collection
+#### 1. Data Collection
 * API Integration: Stock data is collected from Yahoo Finance API for companies like Tesla, IBM, and Apple.
 * Data Storage: The data is initially stored in CSV format for batch processing.
 
-### 2.Kafka Integration
+#### 2.Kafka Integration
 * Kafka Producer: Reads stock data from the CSV file and sends it in batches to a Kafka topic.
 * Kafka Consumer: Consumes the stock data from the Kafka topic and stores it in a PostgreSQL database.
 
-### 3.Database
+#### 3.Database
 * PostgreSQL: Stores the consumed stock data for further analysis and real-time processing.
 
-### 4.Data Processing
+#### 4.Data Processing
 * Batch Processing: Utilizes CSV files for batch data processing.
 * Real-Time Processing: Uses PostgreSQL for real-time data streaming and processing.
 
-### 5.Machine Learning
+#### 5.Machine Learning
 * Prediction Module: Utilizes historical stock data stored in PostgreSQL to predict future stock prices using machine learning models.
 
 ### Architecture
@@ -35,3 +35,19 @@ The main components of the project include:
 * Run the Kafka Consumer to consume the data from the Kafka topic and store it in PostgreSQL.
 #### Run Machine Learning Predictions
 * Use historical data stored in PostgreSQL or use CSV data to make future stock price predictions.
+
+
+### Dependencies
+#### Kafka
+#### PostgreSQL (Docker)
+#### Yahoo Finance API
+#### Python Libraries:
+* pandas
+* numpy
+* matplotlib
+* seaborn
+* kafka-python
+* psycopg2
+* scikit-learn
+* yfinance
+* json
