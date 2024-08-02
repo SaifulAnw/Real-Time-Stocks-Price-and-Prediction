@@ -38,10 +38,10 @@ The main components of the project include:
 
 
 ### Dependencies
-#### Kafka
-#### PostgreSQL (Docker)
-#### Yahoo Finance API
-#### Python Libraries:
+#### -Kafka
+#### -PostgreSQL (Docker)
+#### -Yahoo Finance API
+#### -Python Libraries:
 * pandas
 * numpy
 * matplotlib
